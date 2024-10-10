@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Entry - Well Wise</title>
+    <link rel="stylesheet" href="food-entry.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Food Entry Form -->
+        <div class="form-box">
+            <h2>Enter Your Nutrient Inputs</h2>
+            <form action="submit-food.php" method="post">
+                <!-- Carbohydrates Input -->
+                <div class="input-group">
+                    <label for="carbs">Carbohydrates (grams)</label>
+                    <input type="number" id="carbs" name="carbs" required>
+                </div>
+
+                <!-- Fats Input -->
+                <div class="input-group">
+                    <label for="fats">Fats (grams)</label>
+                    <input type="number" id="fats" name="fats" required>
+                </div>
+
+                <!-- Proteins Input -->
+                <div class="input-group">
+                    <label for="proteins">Proteins (grams)</label>
+                    <input type="number" id="proteins" name="proteins" required>
+                </div>
+
+                <!-- Execute Button -->
+                <button type="submit" class="btn-submit">Execute</button>
+            </form>
+        </div>
+
+        <!-- Food Suggestions Section -->
+        <div class="suggestions">
+            <h3>Food Suggestions</h3>
+            <div class="meal-suggestions">
+                <!-- Meal 1 -->
+                <div class="meal">
+                    <div class="meal-image"></div>
+                    <h4>Meal Name 1</h4>
+                    <p>Carbs: XXg | Fats: XXg | Proteins: XXg</p>
+                </div>
+
+                <!-- Meal 2 -->
+                <div class="meal">
+                    <div class="meal-image"></div>
+                    <h4>Meal Name 2</h4>
+                    <p>Carbs: XXg | Fats: XXg | Proteins: XXg</p>
+                </div>
+
+                <!-- Meal 3 -->
+                <div class="meal">
+                    <div class="meal-image"></div>
+                    <h4>Meal Name 3</h4>
+                    <p>Carbs: XXg | Fats: XXg | Proteins: XXg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

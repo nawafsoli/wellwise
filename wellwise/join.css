@@ -1,0 +1,116 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(to bottom right, #E1F5FE, #FFCDD2); */
+    background: linear-gradient(to bottom right, #e0f7fa, #fce4ec);
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #00ACC1;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #F7F7F7;
+}
+
+.input-group select {
+    appearance: none;
+}
+
+/* Height and Weight placed side by side */
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-row .half-width {
+    width: 48%;
+}
+
+/* Diabetes and Allergies checkboxes side by side */
+.checkbox-group {
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #00ACC1;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0097A7;
+}
+
+/* Login link styles */
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1em;
+    color: #333;
+}
+
+.login-link a {
+    color: #FF4081;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #F06292;
+}
